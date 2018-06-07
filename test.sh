@@ -1,0 +1,15 @@
+#!/bin/sh
+curl "http://localhost:9090/api/suma?num1=3&num2=7"
+curl "http://localhost:9090/api/suma?num1=6&num2=2"
+curl "http://localhost:9090/api/resta?num1=8&num2=2"
+curl "http://localhost:9090/api/resta?num1=10&num2=9"
+curl "http://localhost:9090/api/resta?num1=4&num2=2"
+curl "http://localhost:9090/api/resta?num1=5&num2=4"
+curl "http://localhost:9090/api/multiplicacion?num1=7&num2=2"
+curl "http://localhost:9090/api/multiplicacion?num1=5&num2=8"
+curl "http://localhost:9090/api/multiplicacion?num1=9&num2=1"
+curl "http://localhost:9090/api/division?num1=4&num2=2"
+curl "http://localhost:9090/api/division?num1=2&num2=1"
+curl "http://localhost:9090/api/division?num1=9&num2=3"
+curl "http://localhost:9090/api/division?num1=6&num2=2"
+
